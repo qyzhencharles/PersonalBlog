@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/index.css">
     <title>Personal Blog</title>
 </head>
 <body>
-    <div class="container">
-        <div class="nav-bar">
-            <div class="link">
-                <a href="#">Subscribe</a>
-            </div>
-            <h1>Charles's Blog</h1>  
-            <div class="search">
-                <div class="search-icon">
-                    <img class="search-img" src="./imgs/loupe.png" />
-                </div>
-                <input type="text" placeholder="search">
-            </div>
+    <div class="nav-bar">
+        <div class="link">
+            <a href="#"><b>Subscribe</b></a>
         </div>
+        <h1>Charles's Blog</h1>  
+        <div class="search">
+            <div class="search-icon">
+                <img class="search-img" src="./imgs/loupe.png" />
+            </div>
+            <input type="text" placeholder="search">
+        </div>
+    </div>
+    <div class="container">
         <div class="sidebar">
             <h3>Menu</h3>
             <a class="menu-items" href="#">About Me</a>
@@ -32,25 +32,45 @@
         </div>
         <div class="content">
             <div class="post post1">
-                <a href="./blog.html"><h2>post1</h2></a>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta deserunt eligendi quibusdam nostrum repellendus saepe laudantium dolorum sequi dolorem quasi consequatur praesentium veniam totam unde officia, beatae doloribus, eveniet quam!</p>
+                <a href="./pages/blog.html"><h2><u>Post1</u></h2></a>
+                <figure>
+                    <img class="postImg" src="./imgs/car1.jpeg" />
+                    <figcaption>Rolls-Royce</figcaption>
+                </figure>
+                <button class="read-btn">Read more</button>
             </div>
             <div class="post post2">
-                <h2>post2</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta deserunt eligendi quibusdam nostrum repellendus saepe laudantium dolorum sequi dolorem quasi consequatur praesentium veniam totam unde officia, beatae doloribus, eveniet quam!</p>
+                <h2>Post2</h2>
+                <figure>
+                    <img class="postImg" src="./imgs/rangerover.jpeg" />
+                    <figcaption>Range Rover</figcaption>
+                </figure>
+                <button class="read-btn">Read more</button>
             </div>
-            <div class="post post3"><h2>post3</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta deserunt eligendi quibusdam nostrum repellendus saepe laudantium dolorum sequi dolorem quasi consequatur praesentium veniam totam unde officia, beatae doloribus, eveniet quam!</p></div>
-            <div class="post post4"><h2>post4</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta deserunt eligendi quibusdam nostrum repellendus saepe laudantium dolorum sequi dolorem quasi consequatur praesentium veniam totam unde officia, beatae doloribus, eveniet quam!</p></div>
-        </div>
-        <div class="footer">
-            <a class="footer-link" href="">LinkedIn</a>
-            <a class="footer-link" href="">Twitter</a>
-            <a class="footer-link" href="">Instagram</a>
-            <p class="copyright">© 2022 Charles Qu @ York University.</p>
+            <div class="post post3">
+                <h2>Post3</h2>
+                <figure>
+                    <img class="postImg" src="./imgs/Bentayga.jpeg" />
+                    <figcaption>Bentayga</figcaption>
+                </figure>
+                <button class="read-btn">Read more</button>
+            </div>
+                
+            <div class="post post4">
+                <h2>Post4</h2>
+                <figure>
+                    <img class="postImg" src="./imgs/cadillac.jpeg" />
+                    <figcaption>Cadillac</figcaption>
+                </figure>
+                <button class="read-btn">Read more</button>
+            </div>
         </div>
     </div>
-
+    <div class="footer">
+        <a class="footer-link" href="">LinkedIn</a>
+        <a class="footer-link" href="">Twitter</a>
+        <a class="footer-link" href="">Instagram</a>
+        <p class="copyright">© 2022 Charles Qu @ York University.</p>
+    </div>
 </body>
 </html>

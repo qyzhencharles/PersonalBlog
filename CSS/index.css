@@ -1,0 +1,89 @@
+@import 'navbar.css';
+@import 'footer.css';
+@import 'button.css';
+
+body {
+    color: #40514E;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #40514E;
+}
+
+a:visited {
+    color: #40514E;
+}
+
+.container {
+    width: 90%;
+    /* margin: auto 150px; */
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin: 30px auto;
+}
+
+
+
+.sidebar {
+    /* margin-top: 30px;
+    grid-area: sidebar;
+    margin-left: 150px;
+    padding: 10px; */
+}
+
+.menu-items {
+    display: block;
+}
+
+
+.content {
+    /* margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    grid-area: content; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 20px;
+}
+
+
+
+.post {
+    
+    border: 1px solid rgb(226 232 240);
+    text-align: left;
+    padding: 10px;
+}
+
+.postImg {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+figcaption {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

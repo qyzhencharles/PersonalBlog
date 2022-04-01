@@ -1,0 +1,70 @@
+@import 'navbar.css';
+@import 'footer.css';                       
+
+body {
+    color: #40514E;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    margin: auto 150px;
+}
+
+
+
+.content {
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.blockquote p {
+    padding: 15px;
+    background: #eee;
+    border: 5px;
+}
+
+.sidebar {
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.archive-items {
+    display: block;
+}
+
+
+
+.divider {
+    height: 1px;
+    background-color: #000;
+    width: auto;
+    margin: 15px auto;
+}
+
+@media (max-width: 900px) {
+    .container {
+        margin: auto 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .sidebar {
+        display: none;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .content {
+        margin: auto;
+    }
+}
+
+@media (max-width: 500px) {
+
+}

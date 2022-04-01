@@ -1,0 +1,23 @@
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    background-color: #66BFBF;
+    
+    padding: 50px 0 20px;
+}
+
+.footer-link {
+    color: #11999E;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+.footer-link a {
+    color: #11999E !important;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
